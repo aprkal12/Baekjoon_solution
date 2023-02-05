@@ -49,14 +49,8 @@ cmake_ninja_workdir = C$:/Users/DH/CLionProjects/baekjoon_solution/cmake-build-d
 
 build cmake_object_order_depends_target_baekjoon_solution: phony || CMakeFiles/baekjoon_solution.dir
 
-build CMakeFiles/baekjoon_solution.dir/main.c.obj: C_COMPILER__baekjoon_solution_Debug C$:/Users/DH/CLionProjects/baekjoon_solution/main.c || cmake_object_order_depends_target_baekjoon_solution
-  DEP_FILE = CMakeFiles\baekjoon_solution.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\baekjoon_solution.dir
-  OBJECT_FILE_DIR = CMakeFiles\baekjoon_solution.dir
-
-build CMakeFiles/baekjoon_solution.dir/Geometry1/baek2477.c.obj: C_COMPILER__baekjoon_solution_Debug C$:/Users/DH/CLionProjects/baekjoon_solution/Geometry1/baek2477.c || cmake_object_order_depends_target_baekjoon_solution
-  DEP_FILE = CMakeFiles\baekjoon_solution.dir\Geometry1\baek2477.c.obj.d
+build CMakeFiles/baekjoon_solution.dir/Geometry1/baek1002.c.obj: C_COMPILER__baekjoon_solution_Debug C$:/Users/DH/CLionProjects/baekjoon_solution/Geometry1/baek1002.c || cmake_object_order_depends_target_baekjoon_solution
+  DEP_FILE = CMakeFiles\baekjoon_solution.dir\Geometry1\baek1002.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\baekjoon_solution.dir
   OBJECT_FILE_DIR = CMakeFiles\baekjoon_solution.dir\Geometry1
@@ -69,7 +63,7 @@ build CMakeFiles/baekjoon_solution.dir/Geometry1/baek2477.c.obj: C_COMPILER__bae
 #############################################
 # Link the executable baekjoon_solution.exe
 
-build baekjoon_solution.exe: C_EXECUTABLE_LINKER__baekjoon_solution_Debug CMakeFiles/baekjoon_solution.dir/main.c.obj CMakeFiles/baekjoon_solution.dir/Geometry1/baek2477.c.obj
+build baekjoon_solution.exe: C_EXECUTABLE_LINKER__baekjoon_solution_Debug CMakeFiles/baekjoon_solution.dir/Geometry1/baek1002.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\baekjoon_solution.dir
